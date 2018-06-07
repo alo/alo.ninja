@@ -7,7 +7,7 @@ export class AppService {
 
   getData() {
     return {
-      description: `Web Developer desde que conocí los “encantos” de JQuery. Frontend lead en Coderty, proyecto que desde hace unos años es mi vida, mi casa y mi oficina, y donde Angular ocupa un espacio central, abarcando proyectos de todo tipo de envergadura.
+      description: `Web Developer desde que conocí los “encantos” de JQuery. Frontend lead en Coderty, proyecto que desde hace unos años es mi vida y mi oficina, y donde Angular ocupa un espacio central, abarcando proyectos de todo tipo de envergadura.
       Amante del deporte, los animales y las comunidades de aprendizaje en la que poder aportar y obtener conocimiento. Organizador de Angular Almería y AlmeríaJS.
       Habitante de Almería por necesidad vital y paisaje lunar, aunque viajante inquieto para poder comparar.`,
       position: 'Frontend Lead Coderty',
@@ -94,7 +94,7 @@ export class AppService {
           ]
         }
       ],
-      title: 'Angular SSR',
+      title: 'Web Álvaro Quirós',
       meta: [
         {
           name: 'author',
@@ -102,11 +102,12 @@ export class AppService {
         },
         {
           name: 'keywords',
-          content: 'angular seo, angular 5 universal, nelacantinela'
+          content: 'angular, almeria, seo, friendly, desarrollo, web'
         },
         {
           name: 'description',
-          content: 'Angular SEO friendly app! Enjoy'
+          content:
+            'Frontend lead en Coderty, donde Angular ocupa un espacio central. Quién soy y cómo he llegado hasta aquí es importante para saber de qué manera podemos colaborar. Implementar Angular en proyectos grandes y colaborar con otros equipos de desarrollo es lo que más me apasiona!'
         },
         {
           name: 'copyright',
@@ -114,23 +115,41 @@ export class AppService {
         },
         {
           property: 'og:title',
-          content: 'Angular SSR Blog'
+          content: 'Web Álvaro Quirós'
         },
         {
           property: 'og:description',
-          content: 'Angular SSR Blog'
+          content:
+            'Frontend lead en Coderty, donde Angular ocupa un espacio central. Quién soy y cómo he llegado hasta aquí es importante para saber de qué manera podemos colaborar. Implementar Angular en proyectos grandes y colaborar con otros equipos de desarrollo es lo que más me apasiona!'
         },
         {
           property: 'og:image',
-          content: 'Angular SSR Blog'
+          content: 'https://alo.ninja/assets/alo.jpeg'
         },
         {
           property: 'og:url',
-          content: 'Angular SSR Blog'
+          content: 'https://alo.ninja'
         },
         {
           property: 'og:site_name',
-          content: 'angularalmeria.com'
+          content: 'alo.ninja'
+        },
+        {
+          name: 'twitter:title',
+          content: 'Web Álvaro Quirós'
+        },
+        {
+          name: 'twitter:description',
+          content:
+            'Frontend lead en Coderty, donde Angular ocupa un espacio central. Quién soy y cómo he llegado hasta aquí es importante para saber de qué manera podemos colaborar. Implementar Angular en proyectos grandes y colaborar con otros equipos de desarrollo es lo que más me apasiona!'
+        },
+        {
+          name: 'twitter:image',
+          content: 'https://alo.ninja/assets/alo.jpeg'
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image'
         }
       ]
     };
