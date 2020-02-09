@@ -1,0 +1,26 @@
+.layout {
+  min-height: 100vh;
+}
+
+main {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px;
+  padding: 32px;
+  margin-top: 50px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 599px) {
+  main {
+    padding: 10px;
+  }
+}
+
+alo-header {
+  width: 100%;
+}
+
+alo-footer {
+  width: 100%;
+}

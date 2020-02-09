@@ -5,6 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
@@ -15,11 +16,13 @@ import { environment } from '../environments/environment';
 import { NgcCookieConsentModule, NgcCookieConsentConfig } from 'ngx-cookieconsent';
 import { AppRoutingModule } from './app-routing.module';
 import { ScullyLibModule } from '@scullyio/ng-lib';
-import { PorjectComponent } from './project/containers/porject/porject.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+
 
 const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
-    domain: 'alo.ninja'
+    domain: 'alo.dev'
   },
   palette: {
     popup: {
@@ -32,16 +35,16 @@ const cookieConfig: NgcCookieConsentConfig = {
   theme: 'edgeless',
   type: 'info',
   content: {
-    message: 'Este sitio web usa cookies para asegurarte la mejor experiencia de usuario.',
+    message: 'Este sitio web usa cookies, pero solo de las buenas.',
     dismiss: 'OK!',
     deny: 'Refuse cookies',
-    link: 'Learn more',
+    link: 'Ver más',
     href: 'https://cookiesandyou.com'
   }
 };
 
 @NgModule({
-  declarations: [AppComponent, PorjectComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -53,6 +56,7 @@ const cookieConfig: NgcCookieConsentConfig = {
     MatCheckboxModule,
     MatIconModule,
     MatDialogModule,
+    MatToolbarModule,
     ServiceWorkerModule.register('./ngsw-worker.js', {
       enabled: environment.production
     }),

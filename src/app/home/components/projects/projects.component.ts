@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { Project } from '../../../models/project.interface';
 
+import { Project } from '@shared/models/project.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'alo-projects',
@@ -10,5 +11,9 @@ import { Project } from '../../../models/project.interface';
 export class ProjectsComponent {
   @Input() projects: Project[];
 
-  constructor() {}
+  constructor(private router: Router) {}
+
+  navigateToProjects() {
+    this.router.navigate(['/projects']);
+  }
 }
