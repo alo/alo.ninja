@@ -12,7 +12,7 @@ exports.config = {
     '/projects/:projectId': {
       type: 'json',
       projectId: {
-        url: '/assets/projects.json',
+        url: 'https://www.coderty.com/projects.json',
         property: 'projectId'
       }
     }

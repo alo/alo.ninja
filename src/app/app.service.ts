@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { MainDescription } from './models/main-description.interface';
+import { MainDescription } from '@shared/models/main-description.interface';
 
 @Injectable()
 export class AppService {
@@ -207,7 +207,6 @@ export class AppService {
   }
 
   getProject(projectId: string) {
-    console.log('project', this.data.projects, projectId);
     return this.data.projects.find(project => project.id === projectId);
   }
 }

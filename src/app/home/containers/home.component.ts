@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { MainDescription } from '../../models/main-description.interface';
 import { AppService } from '../../app.service';
+import { MainDescription } from '@shared/models/main-description.interface';
 
 @Component({
   selector: 'alo-home',

@@ -1,18 +1,15 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Project } from 'src/app/models/project.interface';
+
 import { AppService } from 'src/app/app.service';
+import { Project } from '@shared/models/project.interface';
 
 @Component({
-  selector: 'alo-porject',
-  template: `
-    <p>
-      {{ project | json }}
-    </p>
-  `,
-  styleUrls: ['./porject.component.css']
+  selector: 'alo-project-container',
+  templateUrl: 'project.component.html',
+  styleUrls: ['./project.component.scss']
 })
-export class PorjectComponent {
+export class ProjectContainerComponent {
   project: Project;
   constructor(private activatedRoute: ActivatedRoute, private appService: AppService) {
     this.activatedRoute.params.subscribe(params => {

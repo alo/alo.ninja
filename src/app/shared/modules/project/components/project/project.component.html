@@ -1,0 +1,15 @@
+<mat-card class="card-margin">
+  <mat-card-header>
+    <mat-card-title>{{ project.title }}</mat-card-title>
+    <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="project-img-container">
+      <img matCardImage class="project-img" [src]="project.imgSrc" [alt]="project.imgAlt" />
+    </div>
+    <p [innerHTML]="project.desc"></p>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <alo-social-links [socialLinks]="project.socialLinks"></alo-social-links>
+  </mat-card-actions>
+</mat-card>

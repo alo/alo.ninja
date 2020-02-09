@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+}
+
+.main-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+
+.img-redonda {
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+  background-color: white;
+}
