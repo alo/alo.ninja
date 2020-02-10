@@ -7,9 +7,9 @@ export class AppService {
     name: 'Álvaro Quirós',
     description:
       'Disfrutando como Desarrollador de Software desde hace 10 años. Siempre muy cerca de la Web, ' +
-      'hace algo más de 5 años decidí apostar por Javascript con NodeJS y Angular como mis herramientas principales. ' +
-      'Frontend Lead en Coderty, organizador de Angular Almería y AlmeríaJS, speaker y organizador de NGSpain. Viajero inquieto ' +
-      'y amante de los animales.',
+      'hace algo más de 5 años decidí centrarme en Javascript con NodeJS y Angular como mis herramientas principales. ' +
+      'Frontend Lead en Coderty, organizador de NGSpain, Angular Almería y AlmeríaJS y speaker ocasional. Me encanta viajar y ' +
+      'conocer otras culturas.',
     position: 'Frontend Lead Coderty',
     profilePic: {
       src: 'assets/profile.jpg',
@@ -38,10 +38,10 @@ export class AppService {
       {
         id: 'coderty',
         title: 'Coderty',
-        subtitle: 'Yes, we do!',
+        subtitle: 'Co-founder & Frontend Lead',
         desc:
-          'CODERTY es una empresa de desarrollo de software. Es la respuesta tecnológica a todo aquello que imaginas, ' +
-          'ideas o proyectas. Creamos soluciones a medida adaptando las últimas tecnologías a tus necesidades. ' +
+          'CODERTY es una empresa de desarrollo de software, especializada en crear soluciones a medida ' +
+          'adaptando las últimas tecnologías las necesidades de nuestros clientes. ' +
           'WE <b>#ENJOY</b> SOFTWARE!',
         imgSrc: 'assets/coderty-logo.png',
         imgAlt: 'Logo Coderty',
@@ -68,10 +68,10 @@ export class AppService {
         id: 'runnerty',
         title: 'Runnerty',
         desc:
-          'Herramienta de software libre escrita en NodeJS que te permite gestionar y planificar tus procesos. ' +
+          'Orquestador de procesos escrito en NodeJS que te permite gestionar y planificar tus procesos. ' +
           'Céntrate en la lógica de negocio y olvídate de gestionar dependencias entre procesos, jobs, gestión de ' +
           'errores o notificaciones.',
-        subtitle: 'Process Orchestrator',
+        subtitle: 'Co-author & Maintainer',
         imgSrc: 'assets/runnerty-logo2.png',
         imgAlt: 'Logo runnerty',
         socialLinks: [
@@ -92,10 +92,10 @@ export class AppService {
       {
         id: 'ngspain',
         title: 'NGSpain',
-        subtitle: 'Madrid. October 19-20, 2019',
+        subtitle: 'Organizer',
         desc:
-          'Una conferencia Angular sin ánimo de lucro y dirigida por la comunidad. Los organizadores son muy activos dentro ' +
-          'de la comunidad Angular. El objetivo es crear un evento acogedor que esté abierto para todos los que deseen asistir.',
+          'La conferencia de Angular de España. Nuestro objetivo es crear un evento acogedor que esté abierto para todos los que deseen asistir. ' +
+          'La edición de 2019 fue un éxito y ¡Este año 2020 se celebrará en <b>Málaga</b> en el mes de Octubre!',
         imgSrc: 'assets/ngspain.png',
         imgAlt: 'Logo NGSpain',
         socialLinks: [
@@ -117,9 +117,8 @@ export class AppService {
         id: 'almeriajs',
         title: 'AlmeríaJS',
         desc:
-          'Grupo local de desarrolladores web. Cualquier framework Javascript (de los muchos que hay) es válido. ' +
-          'No solo hablamos de los frameworks en sí, sino cualquier proyecto de sorftware libre (OSS) desarrollado con JS! ' +
-          'Y cerveza, la verdad.',
+          'Nos encanta Javascipt. Cualquier framework Javascript (de los muchos que hay) o cualquier lenguaje nos vale. ' +
+          'Nos juntamos una vez al mes e intentamos aprender algo nuevo, divertirnos y ... bebemos cerveza y comemos pizza 🤷‍♂️.',
         imgSrc: 'assets/almeriajs.png',
         subtitle: 'Angular Almeria friends',
         imgAlt: 'Logo AlmeriaJS',
@@ -167,15 +166,15 @@ export class AppService {
       },
       {
         property: 'og:image',
-        content: 'https://alo.ninja/assets/alo.jpeg'
+        content: 'https://alo.dev/assets/alo.jpeg'
       },
       {
         property: 'og:url',
-        content: 'https://alo.ninja'
+        content: 'https://alo.dev'
       },
       {
         property: 'og:site_name',
-        content: 'alo.ninja'
+        content: 'alo.dev'
       },
       {
         name: 'twitter:title',
@@ -187,7 +186,7 @@ export class AppService {
       },
       {
         name: 'twitter:image',
-        content: 'https://alo.ninja/assets/alo.jpeg'
+        content: 'https://alo.dev/assets/alo.jpeg'
       },
       {
         name: 'twitter:card',

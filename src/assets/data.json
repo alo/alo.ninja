@@ -144,15 +144,15 @@
     },
     {
       "property": "og:image",
-      "content": "https://alo.ninja/assets/alo.jpeg"
+      "content": "https://alo.dev/assets/alo.jpeg"
     },
     {
       "property": "og:url",
-      "content": "https://alo.ninja"
+      "content": "https://alo.dev"
     },
     {
       "property": "og:site_name",
-      "content": "alo.ninja"
+      "content": "alo.dev"
     },
     {
       "name": "twitter:title",
@@ -164,7 +164,7 @@
     },
     {
       "name": "twitter:image",
-      "content": "https://alo.ninja/assets/alo.jpeg"
+      "content": "https://alo.dev/assets/alo.jpeg"
     },
     {
       "name": "twitter:card",
