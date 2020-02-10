@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'alo-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.sass']
+  styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
   @Input() projects: Project[];
