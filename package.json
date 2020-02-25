@@ -10,9 +10,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "cypress": "$(npm bin)/cypress open",
-    "serve:firebase": "firebase serve --only functions,hosting",
+    "serve:firebase": "firebase serve --only hosting",
+    "firebase:deploy": "firebase deploy --only hosting",
     "scully": "scully",
-    "scully:serve": "http-server dist/static"
+    "scully:serve": "servor dist/static index.html 8100 --reload"
   },
   "private": true,
   "dependencies": {
@@ -64,6 +65,7 @@
     "reflect-metadata": "^0.1.12",
     "scully-disable-angular": "^2.2.0",
     "scully-minify-html": "^1.4.2",
+    "servor": "^3.2.0",
     "ts-node": "~8.3.0",
     "tslint": "~5.17.0",
     "typescript": "~3.7.5",

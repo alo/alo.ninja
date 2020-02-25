@@ -6,7 +6,7 @@ export class AppService {
   data: MainDescription = {
     name: 'Álvaro Quirós',
     description:
-      'Disfrutando como Desarrollador de Software desde hace 10 años. Siempre muy cerca de la Web, ' +
+      'Disfrutando como Desarrollador de Software desde hace 10 años. Aunque siempre he estado muy cerca de la Web, ' +
       'hace algo más de 5 años decidí centrarme en Javascript con NodeJS y Angular como mis herramientas principales. ' +
       'Frontend Lead en Coderty, organizador de NGSpain, Angular Almería y AlmeríaJS y speaker ocasional. Me encanta viajar y ' +
       'conocer otras culturas.',
@@ -41,7 +41,7 @@ export class AppService {
         subtitle: 'Co-founder & Frontend Lead',
         desc:
           'CODERTY es una empresa de desarrollo de software, especializada en crear soluciones a medida ' +
-          'adaptando las últimas tecnologías las necesidades de nuestros clientes. ' +
+          'adaptando las últimas a tecnologías las necesidades de nuestros clientes. ' +
           'WE <b>#ENJOY</b> SOFTWARE!',
         imgSrc: 'assets/coderty-logo.png',
         imgAlt: 'Logo Coderty',
