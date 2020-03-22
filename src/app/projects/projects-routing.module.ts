@@ -4,7 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { ProjectsComponent } from './containers/projects/projects.component';
 import { ProjectContainerComponent } from './containers/project/project.component';
 
-
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
   { path: ':projectId', component: ProjectContainerComponent }

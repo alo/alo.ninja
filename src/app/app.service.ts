@@ -94,7 +94,8 @@ export class AppService {
         title: 'NGSpain',
         subtitle: 'Organizer',
         desc:
-          'La conferencia de Angular de España. Nuestro objetivo es crear un evento acogedor que esté abierto para todos los que deseen asistir. ' +
+          'La conferencia de Angular de España. Nuestro objetivo es crear un evento acogedor que esté abierto para ' +
+          'todos los que deseen asistir. ' +
           'La edición de 2019 fue un éxito y ¡Este año 2020 se celebrará en <b>Málaga</b> en el mes de Octubre!',
         imgSrc: 'assets/ngspain.png',
         imgAlt: 'Logo NGSpain',

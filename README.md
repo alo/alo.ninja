@@ -28,5 +28,5 @@ npm i
 npm run build:universal
 npm run tsc:prerender
 npm run prerender
-npx http-server dist/ssrtest/
+npx http-server dist/alodev/
 ```

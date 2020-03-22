@@ -1,4 +1,4 @@
-export interface ProfilePic{
+export interface ProfilePic {
   src: string;
   alt: string;
 }
