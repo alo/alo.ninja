@@ -1,1 +1,1 @@
-[{"route":"/"},{"route":"/projects"},{"route":"/projects/coderty"},{"route":"/projects/runnerty"},{"route":"/projects/ngspain"},{"route":"/projects/almeriajs"}]
+[{"route":"/"},{"route":"/projects"},{"route":"/projects/:projectId"}]

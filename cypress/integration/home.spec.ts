@@ -1,6 +1,4 @@
-/// <reference types="Cypress" />
-
-describe('Testing alo.dev page', () => {
+describe('Testing alo.dev homepage', () => {
   beforeEach(() => {
     cy.visit('/');
   });

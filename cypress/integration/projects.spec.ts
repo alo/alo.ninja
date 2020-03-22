@@ -1,5 +1,3 @@
-/// <reference types="Cypress" />
-
 describe('Testing alo.dev page', () => {
   beforeEach(() => {
     cy.visit('/projects');
