@@ -20,20 +20,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Cypress run on prod build
+        uses: cypress-io/github-action@v1
+        with:
+          start: npm run build:scully:prod
+          wait-on: 'http://localhost:4200'
+          wait-on-timeout: 300
 
       - name: Lint
         run: npm run lint
-
-      - name: Test prebuild
-        run: npm run test:prebuild
-
-      - name: Build production bundle
-        run: |
-          npm run build:prod:stats
-          npm run scully
-
-      - name: Test production build
-        run: npm run test:build
-
