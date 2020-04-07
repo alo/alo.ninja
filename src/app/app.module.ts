@@ -19,7 +19,6 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 
-
 // const cookieConfig: NgcCookieConsentConfig = {
 //   cookie: {
 //     domain: 'alo.dev'
@@ -58,12 +57,12 @@ import { HeaderComponent } from './components/header/header.component';
     MatDialogModule,
     MatToolbarModule,
     ServiceWorkerModule.register('./ngsw-worker.js', {
-      enabled: environment.production
+      enabled: environment.production,
     }),
     // NgcCookieConsentModule.forRoot(cookieConfig),
-    ScullyLibModule
+    ScullyLibModule,
   ],
-  providers: [AppService],
-  bootstrap: [AppComponent]
+  providers: [AppService, { provide: 'googleTagManagerId', useValue: environment.GTM }],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
