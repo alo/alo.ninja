@@ -38,7 +38,7 @@
     "@briebug/cypress-schematic": "^3.2.0",
     "@scullyio/init": "0.0.23",
     "@scullyio/ng-lib": "0.0.22",
-    "@scullyio/scully": "0.0.83",
+    "@scullyio/scully": "1.0.9",
     "angular-google-tag-manager": "^1.1.1",
     "cookieconsent": "^3.1.0",
     "firebase-admin": "^8.10.0",
